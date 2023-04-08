@@ -8,7 +8,7 @@ const Home = () => {
   const data = useContext(TheTrueContext);
   // console.log(data);
   return (
-    <div className="grid md:grid-cols-3 grid-cols-1 gap-1 m-8">
+    <div className="grid md:grid-cols-3 lg:grid-cols-4 grid-cols-1 gap-1 m-8">
       {products.map((product) => {
         const { _id, name, picture, price } = product;
         return (
